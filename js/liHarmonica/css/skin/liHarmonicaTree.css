@@ -1,0 +1,35 @@
+/*liHarmonicaTree*/
+/*skinTree*/
+.skinTree,
+.skinTree ul {list-style:none; padding:0; margin:0; font:14px/1.2em Arial, Helvetica, sans-serif}
+.skinTree ul { padding:0 0 0 15px;display:none; margin:0; background:url(liHarmonicaTree/line.gif) 0 0px repeat-y;//zoom:1}
+.skinTree li {list-style:none; background:url(liHarmonicaTree/join.gif) 0 0 no-repeat; padding:0 0 0 0; display:block; font-size:0; line-height:0; overflow:hidden; //zoom:1; position:relative;} 
+.skinTree li.last { background:url(liHarmonicaTree/joinbottom.gif) 0 0px no-repeat;}
+.skinTree a {
+    display: block;
+	color: #777;
+    font: 12px/18px Arial,Helvetica,sans-serif;
+    overflow: hidden;
+    padding: 0 0 0 18px;
+    text-decoration: none;
+	//zoom:1
+}
+.skinTree a:before {
+	content:'';
+	border:0;
+    display:block;
+    position:absolute;
+	top:0; 
+	left:0;
+    height: 18px;
+    width: 18px;
+	margin: 0;
+}
+.skinTree a.harFull.harOpen:before { background:url(liHarmonicaTree/minus.gif) 0 0px no-repeat;}
+.skinTree a.harFull:before { background:url(liHarmonicaTree/plus.gif) 0 0px no-repeat;}
+.skinTree .last a.harFull.harOpen:before { background:url(liHarmonicaTree/minusbottom.gif) 0 0px no-repeat;}
+.skinTree .last a.harFull:before{ background:url(liHarmonicaTree/plusbottom.gif) 0 0px no-repeat;}
+.skinTree li.last ul { background:none;}
+
+.skinTree a:hover { text-decoration:underline;}
+.skinTree a.cur { color:#000}

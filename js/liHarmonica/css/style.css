@@ -1,0 +1,15 @@
+/*layout css*/
+body,html { min-height:100%; padding:0; margin:0}
+body { font:12px/1.2em Arial, Helvetica, sans-serif; color:#999; padding:0 100px; margin:0;}
+.header { background:#ccc; padding:10px; text-align:center; margin:0 0 20px 0;}
+.conteiner {
+	margin: auto;
+	max-width: 800px;
+}
+.descr {
+	border-bottom: 1px dashed #ccc;
+	padding: 0 0 15px 0;
+	text-align: left;
+}
+hr { clear:both; border:0; border-bottom:1px dashed #ccc; height:0; margin:20px 0; display:block}
+h2 { clear:both; }

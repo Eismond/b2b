@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B2B</title>
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style-v2.css">
+    <link rel="stylesheet" href="css/liHarmonicaClear.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <script src="js/libraries.js" type="text/javascript"></script><!-- for accordion-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery.liHarmonica.js" type="text/javascript"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    
+    <script>
+       
+
+    </script>
+   <!--if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE9.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <div class="container-full-header">
+            <div class="container">
+                <div class="header">
+                    <div class="row nav">
+                        <div class="col-sm-6 col-xs-6 main-block">
+                            <a href="#" class="main-tablet">Меню</a>
+                            <ul class="main">
+                                <li><a href="#">О магазине</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Прайс</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-xs-6 log-basket">
+                            <div class="basket">
+                                <a href="#"><span class="text">Мои покупки</span>
+                                    <div class="basket-reserve"><span>12</span></div>
+                                </a>
+                            </div>
+                            <div class="log">
+                                <a href="#entry" class="btn-log" >Войти</a>
+                                <a href="#" class="btn-profile">Профиль</a>
+                                <ul class="profile-list">
+                                    <li><a href="">Мой профиль</a></li>
+                                    <li><a href="">Мои заказы</a></li>
+                                    <li><a href="">Накладные</a></li>
+                                    <li><a href="">Взаиморасчеты</a></li>
+                                    <li><a href="">Возвраты</a></li>
+                                    <li><a href="">Выйти</a></li>
+                                </ul>
+                            <div id="entry" class="overlay">
+	                            <div class="popup">
+                                    <div class="pop-up entry">
+                                        <div class="content">
+                                            <a href="#" class="close"></a>
+                                            <h4>ВОЙТИ</h4>
+                                            <form action="">
+                                                <input type="text" placeholder="E-mail">
+                                                <input type="password" placeholder="Пароль">
+                                                <button class="enter">Войти</button>  
+                                            </form>
+                                                <a class="forgot">Забыли пароль?</a>
+                                                <span class="registration-none">Ещё незарегестрированы?</span>
+                                                <a class="enter-in" href="#registration">Зарегистрироваться</a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             <div id="registration" class="overlay">
+	                            <div class="popup">
+                                    <div class="pop-up registration">
+                                        <div class="content">
+                                            <a href="#" class="close"></a>
+                                            <h4>РЕГИСТРАЦИЯ</h4>
+                                            <form action="">
+                                                <input type="text" placeholder="Ваше имя">
+                                                <input type="text" placeholder="Ваш E-mail">
+                                                <button>Зарегистрироваться</button>   
+                                            </form>
+                                            <a class="forgot" href="#">Забыли пароль?</a>
+                                            <span class="registration-done">Уже зарегестрированы?</span>
+                                            <a href="#entry" class="enter-in">Войти в аккаунт</a>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="succesful" class="overlay">
+	                            <div class="popup">
+                                    <div class="pop-up succesful">
+                                        <div class="content">Вы успешно<br/> зарегистрированы!
+                                        </div>
+                                        <a href="#" class="close"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full-search">
+        <div class="container">
+            <div class="row contact-search">
+                <div class="col-md-4 col-sm-6  col-xs-6 logo"><a href="" id="logo"><img src="images/LOGO3.png" alt="" height="60"/></a></div>
+                <div class="col-md-4 col-sm-6  col-xs-6 contact">
+                    <ul>
+                        <li><a href="tel:+" class="phone">+38 (098) 111-11-11</a></li>
+                        <li><a href="mailto:" class="e-mail">test@mail.ru</a></li>
+                        <li><a href="tel:" class="phone">++38 (098) 111-11-11 </a></li><br/>
+                        <li>Одесса, 7км</li>
+                    </ul>
+                    <span class="help1">Пн-Сб: с 7:00 до 17:00</span>&nbsp;&nbsp;<span>Вс: выходной</span>
+                    
+                </div>
+                <div class="col-md-4 search">
+                    <form action="">
+                        <input type="search" placeholder="ПОИСК"><input type="submit" value="НАЙТИ">
+                    </form>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="search-table container">
+        <form action="">
+            <input type="search" placeholder="ПОИСК"><input type="submit" value="">
+        </form>
+    </div>
+    <div class="container" id="main-content">   
+        <div class="main-content row">
+            <div class="catalog-accordion col-md-3">
+                <h3>Каталог товаров<a href="#" class="catalogue-tablet"></a></h3>
+                <ul id="accordion" class="first-level skinClear anyClass">
+                    <li class=""><a href="#">Аккумуляторные батареи</a>
+                        <ul class="first-level">
+                            <li><a href="#">Батареи для телефонов</a></li>
+                            <li><a href="#">Powerbank</a></li>
+                            <li><a href="#">Встроенные акумуляторы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Наушники</a>
+                        <ul class="second-level">
+                            <li><a href="#">Батареи для телефонов</a>
+                                <ul class="third-level">
+                                    <li><a href="#">Nokia</a></li>
+                                    <li><a href="#">Samsung</a></li>
+                                    <li><a href="#">iPhone</a>
+                                        <ul class="fourth-level">
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#">6</a>
+                                                <ul class="fifth-level">
+                                                    <li><a href="#">iPhone 6</a></li>
+                                                    <li class="e-mail"><a href="">iPhone 6 Plus</a></li>
+                                                    <li><a href="#">iPhone 6s</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Powerbank</a>
+                                <ul class="second-level">
+                                    <li><a href="#">Xiaomi</a></li>
+                                    <li><a href="#">Proda</a></li>
+                                    <li><a href="#">Remax</a></li>
+                                </ul>
+                            </li>
+                    <li><a href="#">Встроенные акумуляторы</a></li>
+                    <li><a href="#">Зарядные устройства</a></li>
+                    <li><a href="#">Чехлы</a></li>           
+                </ul>                
+            </div>
+            <div class="content-slide col-md-9">
+                <div class="novelty">
+                    <div class="header">
+                        <h3>Новинки</h3>
+                        <a href="#" class="show">Посмотреть все <!--новинки--></a>
+                    </div>
+                    <div class="novelty-slider">
+                        <div class="ns-item select slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <span class="novelty">Новинка</span>
+                            <a href="#" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                               
+                            </a>                            
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">В избранное</button>
+                        </div>
+                        <div class="ns-item select slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <span class="hit">Хит продаж!</span>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="in-basket"><img src="images/ok.png" alt="inbasket"/>В корзине</button>
+                        </div>
+                        <div class="ns-item select not slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price not"><b>нет в наличии</b></span>
+                            <button class="to-favorites">В избранное</button>
+                        </div>
+                        <div class="ns-item select slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <span class="sale">Распродажа!</span>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ns-item select slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ns-item select slide">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sale">
+                    <div class="header">
+                        <h3>Распродажа</h3>
+                        <a href="" class="show">Посмотреть все <!--товары--></a>
+                    </div>
+                    <div class="sale-slider">
+                        <div class="ss-item sale-product">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ss-item sale-product">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ss-item sale-product">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ss-item sale-product">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ss-item sale-product">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>
+                        <div class="ss-item sale-product bestseller">
+                            <img src="images/product/novelty/img.png" alt=""/>
+                            <a href="" class="product">
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"<br/>
+                                Apple Cinema 30"
+                            </a>
+                            <span class="price">5999 <b>грн.</b></span>
+                            <button class="buy">Купить</button>
+                        </div>    
+                    </div>
+                </div> 
+                <div class="about">
+                    <h3>О нас</h3>
+                    <div class="text-content">
+                    <p>Нейтральные стилистические языковые средства (слова, словосочетания, фразеологические единицы, синтаксические конструкции, морфологические формы) являются общеупотребительными, могут использоваться в любом функц. стиле, в устной и письменной форме речи, в любой коммуникативной ситуации, обеспечивая единство лит. языка как системы. В иной терминологии они называются межстилевыми. Понятие стилистической нейтральности соотносимо с понятием нормативности/ненормативности. Категория нейтральности языковых единиц изучается теорией литературного языка (см.) и стилистикой ресурсов (см.), в которой понятие нормы обычно связано с представлением о единстве стиля – недопустимости смешения в тексте средств с контрастными</p>
+                    </div>
+                </div>   
+            </div>
+            
+        </div>
+    </div>
+    <div class="subscribe-container-full">
+        <div class="container">
+            <div class="subscr-form row col-md-12 col-xs-12">
+               <div class="center">
+                <span>Введите E-mail и мы свяжемся с вами</span>&nbsp;&nbsp;
+                <form action="">
+                    <input type="email" placeholder="E-MAIL"><input type="submit" value="ОТПРАВИТЬ"></form>
+                </div>    
+            </div>
+        </div>    
+    </div>
+    <div class="container-full-footer">
+        <div class="container">
+            <div class=" row footer">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="" class="logo"><img src="images/LOGO3.png" alt="" height="70"/></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 contact">
+                    <ul>
+                        <li><a href="tel:+380661232323" class="phone">+38 (066) 123-23-23</a></li>
+                        <li><a href="mailto:partner@mail.ru" class="e-mail">partner@mail.ru</a></li>
+                    </ul>
+                    <span class="help">Онлайн-поддержка с 9:00 до 18:00</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="main">
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Доставка и оплата</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Прайс</a></li>
+                        <li class="helper"></li>
+                    </ul>
+                </div>
+           </div>
+        </div>   
+    </div>
+</body>
+</html>
